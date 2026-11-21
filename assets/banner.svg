@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#141824"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyan-violet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Terminal Window Gradient -->
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b26" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f131c" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#253046" stroke-width="0.8" stroke-opacity="0.35"/>
+    </pattern>
+
+    <filter id="subtle-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <style>
+    .glow-orb {
+      animation: pulseOrb 8s ease-in-out infinite alternate;
+    }
+    @keyframes pulseOrb {
+      0% { transform: scale(1) translate(0px, 0px); opacity: 0.25; }
+      50% { transform: scale(1.15) translate(30px, -20px); opacity: 0.45; }
+      100% { transform: scale(1) translate(-20px, 15px); opacity: 0.25; }
+    }
+    .cursor-blink {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: flowDash 30s linear infinite;
+    }
+    @keyframes flowDash {
+      to { stroke-dashoffset: -500; }
+    }
+    .pill {
+      transition: all 0.3s;
+    }
+    .floating-badge {
+      animation: float 6s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Deep Background Layer -->
+  <rect width="1200" height="420" fill="url(#bg-grad)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+
+  <!-- Animated Glowing Background Orbs (Behind Foreground) -->
+  <g filter="url(#subtle-blur)" pointer-events="none">
+    <circle class="glow-orb" cx="200" cy="120" r="140" fill="#38bdf8"/>
+    <circle class="glow-orb" cx="980" cy="280" r="160" fill="#8b5cf6" style="animation-delay: -3s;"/>
+    <circle class="glow-orb" cx="620" cy="380" r="120" fill="#ec4899" style="animation-delay: -5s;"/>
+  </g>
+
+  <!-- Flowing Network Connectors (Background Decorative) -->
+  <g fill="none" stroke="#334155" stroke-width="1.5" class="flow-line" opacity="0.4">
+    <path d="M 50 80 Q 300 20 600 70 T 1150 50"/>
+    <path d="M 50 360 Q 400 390 750 330 T 1150 370"/>
+  </g>
+
+  <!-- Decorative Simulated Terminal Window Box (Right Side) -->
+  <g class="floating-badge" transform="translate(730, 65)">
+    <rect width="420" height="290" rx="14" fill="url(#term-bg)" stroke="#30394c" stroke-width="1.5" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.6))"/>
+    
+    <!-- Window Header -->
+    <path d="M 0 14 Q 0 0 14 0 L 406 0 Q 420 0 420 14 L 420 38 L 0 38 Z" fill="#1b212f"/>
+    <circle cx="22" cy="19" r="6" fill="#ef4444"/>
+    <circle cx="42" cy="19" r="6" fill="#f59e0b"/>
+    <circle cx="62" cy="19" r="6" fill="#10b981"/>
+    <text x="210" y="24" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">bash ~/awesome-tui</text>
+
+    <!-- Terminal Code / CLI Prompts (Simulated Gum & Bubble Tea Prompting) -->
+    <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">
+      <!-- Line 1 -->
+      <text x="24" y="70" fill="#38bdf8">❯</text>
+      <text x="42" y="70" fill="#f1f5f9">gum choose</text>
+      <text x="145" y="70" fill="#94a3b8">"Bubble Tea" "Textual" "Ratatui"</text>
+      
+      <!-- Selection box -->
+      <rect x="24" y="86" width="372" height="66" rx="6" fill="#10141f" stroke="#2a3449"/>
+      <text x="40" y="108" fill="#10b981">● Bubble Tea (Go / The Elm Arch)</text>
+      <text x="40" y="128" fill="#64748b">○ Textual (Python RAD CSS TUI)</text>
+      <text x="40" y="146" fill="#64748b">○ Ratatui (Rust High-Perf TUI)</text>
+
+      <!-- Line 2 -->
+      <text x="24" y="185" fill="#a855f7">❯</text>
+      <text x="42" y="185" fill="#f1f5f9">gum spin</text>
+      <text x="125" y="185" fill="#38bdf8">--spinner</text>
+      <text x="210" y="185" fill="#f43f5e">dot</text>
+      <text x="245" y="185" fill="#cbd5e1">"Rendering TUI..."</text>
+
+      <!-- Status Line Banner -->
+      <rect x="24" y="210" width="372" height="52" rx="6" fill="#182234" stroke="#38bdf8" stroke-dasharray="3 3"/>
+      <text x="40" y="232" fill="#38bdf8" font-weight="bold">⚡ Terminal UI Ready</text>
+      <text x="40" y="250" fill="#94a3b8" font-size="12">Rendered across WebSockets &amp; ANSI</text>
+      <rect x="360" y="236" width="8" height="15" fill="#38bdf8" class="cursor-blink"/>
+    </g>
+  </g>
+
+  <!-- Foreground Content: Titles, Subtitle & Ecosystem Pillars (Guaranteed Foreground) -->
+  <g transform="translate(60, 90)">
+    
+    <!-- Top Category Tag Pill -->
+    <g>
+      <rect width="210" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="16" cy="14" r="4" fill="#38bdf8"/>
+      <text x="30" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">CURATED DEVELOPER STACK</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+      Awesome CLI Scripting &amp;
+    </text>
+    <text x="0" y="130" fill="url(#cyan-violet)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+      Terminal UI (TUI) Tools
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="172" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      Interactive prompts, rich styling, parsers, and full-screen terminal frameworks.
+    </text>
+
+    <!-- Tech Pills Row (Go, Rust, Python, Node.js, Shell, WebSockets) -->
+    <g transform="translate(0, 205)">
+      <!-- Pill 1: Go / Charm -->
+      <g class="pill" transform="translate(0, 0)">
+        <rect width="105" height="32" rx="8" fill="#162032" stroke="#2563eb" stroke-opacity="0.6"/>
+        <text x="52" y="21" fill="#60a5fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">🐹 Go &amp; Charm</text>
+      </g>
+
+      <!-- Pill 2: Rust / Ratatui -->
+      <g class="pill" transform="translate(115, 0)">
+        <rect width="115" height="32" rx="8" fill="#24191c" stroke="#f97316" stroke-opacity="0.6"/>
+        <text x="57" y="21" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">🦀 Rust / Ratatui</text>
+      </g>
+
+      <!-- Pill 3: Python / Textual -->
+      <g class="pill" transform="translate(240, 0)">
+        <rect width="125" height="32" rx="8" fill="#172224" stroke="#10b981" stroke-opacity="0.6"/>
+        <text x="62" y="21" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">🐍 Python Textual</text>
+      </g>
+
+      <!-- Pill 4: Node / Clack -->
+      <g class="pill" transform="translate(375, 0)">
+        <rect width="115" height="32" rx="8" fill="#261c28" stroke="#c084fc" stroke-opacity="0.6"/>
+        <text x="57" y="21" fill="#e879f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">⚡ Node &amp; Clack</text>
+      </g>
+
+      <!-- Pill 5: Shell / Gum -->
+      <g class="pill" transform="translate(500, 0)">
+        <rect width="115" height="32" rx="8" fill="#20222b" stroke="#f43f5e" stroke-opacity="0.6"/>
+        <text x="57" y="21" fill="#fb7185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="600" text-anchor="middle">🐚 Shell &amp; Gum</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

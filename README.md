@@ -1,47 +1,53 @@
-# Awesome-CLI-Scripting-Terminal-UI-Tools
+# 💻 Awesome CLI Scripting & Terminal UI Tools 🚀
 
-## Top CLI Scripting & Terminal UI Tools Ecosystem
+<div align="center">
 
+<a href="https://github.com/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools">
+  <img src="assets/banner.svg" alt="Awesome CLI Scripting & Terminal UI Tools Banner" width="100%">
+</a>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+**A curated index of best-in-class Terminal User Interface (TUI) frameworks, CLI argument parsers, ANSI styling libraries, shell script prompt enhancers, and cloud/browser terminal services.**
 
-*Focused on Shell Scripting Prompts, Terminal User Interface (TUI) Frameworks, CLI Parsers, ANSI Styling & SSH/Web Terminal Apps*  
+*Empowering developers across Go, Rust, Python, TypeScript, Node.js, and Shell to build modern, beautiful, and interactive command-line experiences.*
 
-**Last updated: November 2026**
+---
 
+</div>
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **CLI Scripting & Terminal UI Tools**. These tools build, style, prompt, parse, render, and deploy interactive command-line interfaces, shell script UIs, and full-screen Terminal User Interfaces (TUIs) across Go, Rust, Python, TypeScript/Node.js, and POSIX shell scripts.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+  - [Top Frameworks & Utilities (Sorted by Stars ⭐)](#top-frameworks--utilities-sorted-by-stars-)
+  - [Architectural Stacks & Tooling Combinations](#architectural-stacks--tooling-combinations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Share](#-support--share)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Examples** include Gum, Charm Cloud, Lip Gloss, Cobra CLI, Inquirer.js, Clack, Prompts, Textualize Cloud, Bubble Tea, Termui, and charmbracelet/gum (the category leaders and popular runtimes). 
+The global developer tools and command-line interface ecosystem is currently estimated at approximately **$15B–$16B**, expanding at a ~15% CAGR toward broader cloud and developer infrastructure segments. 
 
+The market exhibits a distinct bifurcation:
+- **Modular Utility Layer (Extreme Fragmentation)**: The CLI utilities, styling toolkits, and local TUI frameworks market is deeply fragmented across programming languages (Go, Rust, Python, JavaScript/Node.js). Thousands of independent open-source packages thrive and compete for community mindshare with high developer velocity and modular composability.
+- **Platform & Cloud Terminal Layer (Heavy Concentration)**: In contrast, remote browser terminal workspaces, managed agentic dev environments, and distribution chokepoints are heavily concentrated among mega-cap tech ecosystems (Microsoft/GitHub, AWS) and high-valuation venture-backed platforms (Replit, Warp).
 
+---
 
-**Open-source emphasis**: Because CLI scripting and TUI frameworks are predominantly open-source, this section is heavily expanded with every major active Go, Rust, Python, and JavaScript project (`charmbracelet/gum`, `Bubble Tea`, `Lip Gloss`, `Cobra`, `Textual`, `Ratatui`, `Clack`, `Inquirer.js`), while keeping commercial/hosted cloud terminal & SSH services separated — ideal for CLI developers, DevOps engineers, platform teams, and terminal UI craftsmen.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global developer tools and command-line interface ecosystem is currently estimated at approximately $15B–$16B, expanding at a ~15% CAGR toward broader cloud and developer infrastructure segments. The market exhibits a distinct bifurcation: it is **extremely fragmented** at the modular CLI utility and local TUI framework level where thousands of open-source projects thrive, but **highly concentrated** at the platform, distribution, and cloud terminal layer where mega-cap gatekeepers (Microsoft/GitHub, AWS) dominate enterprise adoption and workflow distribution.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -52,154 +58,143 @@ The global developer tools and command-line interface ecosystem is currently est
 | **[Charm Cloud & Wish Hosted Ecosystem (`charm.sh`)](https://charm.sh)** | **Seed-stage (~$6M venture funding raised** led by Gradient Ventures) | **$10/month** (Shred Diet plan for Charm Hyper) or $5 prepaid credit pack | **Free forever plan**: 100% free open-source TUI libraries, self-hosting (`charm serve`), and Crush terminal coding agent using Bring-Your-Own-Key (BYOK). | Cloud services, inference routing (Hyper), and developer infrastructure built around Charm's CLI/TUI tools. |
 | **[Textualize Cloud / Textual Web](https://textualize.io)** | **Seed-stage venture-backed** (raised undisclosed seed from Costanoa Ventures; wound down commercial operations) | **$0/month** (Free & 100% open-source under MIT; commercial cloud service retired) | **Free forever plan**: Unlimited full access to self-hosted `textual-web` WebSocket server and Python Textual framework without commercial usage caps. | Hosted web-serving and open-source WebSocket runtime enabling Python `Textual` TUI apps to render directly inside web browsers. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+### Top Frameworks & Utilities (Sorted by Stars ⭐)
 
+- **[fzf (`junegunn/fzf`)](https://github.com/junegunn/fzf)** [![Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers)  
+  ⚡ General-purpose, blazing-fast command-line fuzzy finder written in Go, ubiquitous for interactive shell search, file navigation, and CLI completion workflows.
 
-## Open-Source GitHub Projects
+- **[bat (`sharkdp/bat`)](https://github.com/sharkdp/bat)** [![Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers)  
+  🦇 A modern `cat` clone written in Rust featuring syntax highlighting for a vast range of programming languages, Git integration, and automatic terminal paging.
 
+- **[Rich (`Textualize/rich`)](https://github.com/Textualize/rich)** [![Stars](https://img.shields.io/github/stars/Textualize/rich?style=social&color=white)](https://github.com/Textualize/rich/stargazers)  
+  🌈 Essential Python library for rendering rich text, beautiful ANSI colors, syntax-highlighted code, tables, progress bars, and markdown directly in the terminal.
 
+- **[Bubble Tea (`charmbracelet/bubbletea`)](https://github.com/charmbracelet/bubbletea)** [![Stars](https://img.shields.io/github/stars/charmbracelet/bubbletea?style=social&color=white)](https://github.com/charmbracelet/bubbletea/stargazers)  
+  🍵 The fun, powerful, and ultra-popular Go TUI framework based on The Elm Architecture (Model-Update-View) for crafting elegant, stateful terminal apps.
 
-- **[charmbracelet/gum](https://github.com)**  
+- **[fd (`sharkdp/fd`)](https://github.com/sharkdp/fd)** [![Stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers)  
+  🔎 A simple, fast, and user-friendly alternative to `find` written in Rust with intuitive syntax, colorized terminal output, and regex matching.
 
-  Flagship open-source CLI tool written in Go for adding glamorous interactive prompts, spinners, fuzzy filters, tables, and styled output directly into Bash/Zsh shell scripts.
+- **[Cobra (`spf13/cobra`)](https://github.com/spf13/cobra)** [![Stars](https://img.shields.io/github/stars/spf13/cobra?style=social&color=white)](https://github.com/spf13/cobra/stargazers)  
+  🐍 Industry-standard Go library for creating modern CLI applications with nested subcommands, POSIX flags, and auto-generated shell autocompletions (powers Kubernetes, Hugo, GitHub CLI).
 
+- **[Ink (`vadimdemedes/ink`)](https://github.com/vadimdemedes/ink)** [![Stars](https://img.shields.io/github/stars/vadimdemedes/ink?style=social&color=white)](https://github.com/vadimdemedes/ink/stargazers)  
+  ⚛️ React for interactive command-line apps. Use standard JSX components, hooks, and Flexbox layouts powered by Yoga to build rich terminal experiences in Node.js.
 
+- **[Textual (`Textualize/textual`)](https://github.com/Textualize/textual)** [![Stars](https://img.shields.io/github/stars/Textualize/textual?style=social&color=white)](https://github.com/Textualize/textual/stargazers)  
+  🐍 Modern Python Rapid Application Development (RAD) framework for building sophisticated terminal user interfaces with CSS-like styling, mouse support, and WebSockets.
 
-- **[Bubble Tea (`charmbracelet/bubbletea`)](https://github.com)**  
+- **[delta (`dandavison/delta`)](https://github.com/dandavison/delta)** [![Stars](https://img.shields.io/github/stars/dandavison/delta?style=social&color=white)](https://github.com/dandavison/delta/stargazers)  
+  📑 A syntax-highlighting pager for git, diff, and grep output featuring side-by-side view, line numbers, and custom color themes written in Rust.
 
-  Powerful open-source Go TUI framework based on The Elm Architecture (Model-Update-View) for building stateful, interactive terminal applications.
+- **[Glow (`charmbracelet/glow`)](https://github.com/charmbracelet/glow)** [![Stars](https://img.shields.io/github/stars/charmbracelet/glow?style=social&color=white)](https://github.com/charmbracelet/glow/stargazers)  
+  🌟 Terminal-based markdown reader designed from the ground up to render markdown beautifully on the CLI with custom palettes, stash, and pager support.
 
+- **[Gum (`charmbracelet/gum`)](https://github.com/charmbracelet/gum)** [![Stars](https://img.shields.io/github/stars/charmbracelet/gum?style=social&color=white)](https://github.com/charmbracelet/gum/stargazers)  
+  🍬 Flagship tool written in Go for adding glamorous interactive prompts, multi-selects, spinners, fuzzy filters, tables, and styled output directly into Bash/Zsh shell scripts.
 
+- **[Ratatui (`ratatui/ratatui`)](https://github.com/ratatui/ratatui)** [![Stars](https://img.shields.io/github/stars/ratatui/ratatui?style=social&color=white)](https://github.com/ratatui/ratatui/stargazers)  
+  🦀 Leading lightweight Rust library for cooking up terminal user interfaces with immediate-mode rendering, rich layout constraints, charts, and crossterm/termion backends.
 
-- **[Lip Gloss (`charmbracelet/lipgloss`)](https://github.com)**  
+- **[Inquirer.js (`SBoudrias/Inquirer.js`)](https://github.com/SBoudrias/Inquirer.js)** [![Stars](https://img.shields.io/github/stars/SBoudrias/Inquirer.js?style=social&color=white)](https://github.com/SBoudrias/Inquirer.js/stargazers)  
+  ❓ Classic, battle-tested collection of interactive command-line user interfaces and prompts for Node.js CLI tools and interactive setup wizards.
 
-  Declarative open-source style definitions library for terminal layouts in Go, bringing CSS-like padding, margins, borders, and adaptive colors to CLI output.
+- **[VHS (`charmbracelet/vhs`)](https://github.com/charmbracelet/vhs)** [![Stars](https://img.shields.io/github/stars/charmbracelet/vhs?style=social&color=white)](https://github.com/charmbracelet/vhs/stargazers)  
+  📼 Write terminal demonstrations and CLI/TUI integration tests as pure code (`.tape` files) and generate pixel-perfect animated GIF and MP4 recordings in CI.
 
+- **[Typer (`fastapi/typer`)](https://github.com/fastapi/typer)** [![Stars](https://img.shields.io/github/stars/fastapi/typer?style=social&color=white)](https://github.com/fastapi/typer/stargazers)  
+  ⌨️ Great developer ergonomics library for building CLI applications in Python based on Python type hints, created by the author of FastAPI.
 
+- **[Clap (`clap-rs/clap`)](https://github.com/clap-rs/clap)** [![Stars](https://img.shields.io/github/stars/clap-rs/clap?style=social&color=white)](https://github.com/clap-rs/clap/stargazers)  
+  👏 Full-featured, blazingly fast Command Line Argument Parser for Rust offering declarative derive macros, subcommands, and shell autocompletions.
 
-- **[Cobra (`spf13/cobra`)](https://github.com)**  
+- **[Termui (`gizak/termui`)](https://github.com/gizak/termui)** [![Stars](https://img.shields.io/github/stars/gizak/termui?style=social&color=white)](https://github.com/gizak/termui/stargazers)  
+  📊 Cross-platform Go terminal dashboard and widget library built on `termbox-go` for rendering sparklines, bar charts, gauges, and grid-based system monitors.
 
-  Industry-standard open-source Go library for creating modern CLI applications with nested subcommands, POSIX flags, and shell autocompletions (powering Kubernetes, Hugo, and GitHub CLI).
+- **[ttyd (`tsl0922/ttyd`)](https://github.com/tsl0922/ttyd)** [![Stars](https://img.shields.io/github/stars/tsl0922/ttyd?style=social&color=white)](https://github.com/tsl0922/ttyd/stargazers)  
+  🌐 Simple command-line tool for sharing any local CLI application, shell session, or TUI app over the web via WebSockets with zero cloud lock-in.
 
+- **[Lip Gloss (`charmbracelet/lipgloss`)](https://github.com/charmbracelet/lipgloss)** [![Stars](https://img.shields.io/github/stars/charmbracelet/lipgloss?style=social&color=white)](https://github.com/charmbracelet/lipgloss/stargazers)  
+  💄 Style definitions for nice terminal layouts using CSS-like declarative rules, borders, padding, margins, colors, and tables in Go.
 
+- **[Prompts (`terkelg/prompts`)](https://github.com/terkelg/prompts)** [![Stars](https://img.shields.io/github/stars/terkelg/prompts?style=social&color=white)](https://github.com/terkelg/prompts/stargazers)  
+  💬 Lightweight, zero-dependency JavaScript prompt library providing intuitive interactive inputs, multi-selects, confirmations, and autocompletes.
 
-- **[Textual (`Textualize/textual`)](https://github.com)**  
+- **[Clack (`natemoo-re/clack`)](https://github.com/natemoo-re/clack)** [![Stars](https://img.shields.io/github/stars/natemoo-re/clack?style=social&color=white)](https://github.com/natemoo-re/clack/stargazers)  
+  🔔 Beautifully crafted, effortless CLI prompt toolkit for Node.js and TypeScript featuring spinners, multi-selects, text inputs, and clean modern terminal typography.
 
-  Modern open-source Python Rapid Application Development (RAD) TUI framework featuring CSS-like stylesheets, reactive widgets, async workers, and browser rendering.
+- **[sd (`chmln/sd`)](https://github.com/chmln/sd)** [![Stars](https://img.shields.io/github/stars/chmln/sd?style=social&color=white)](https://github.com/chmln/sd/stargazers)  
+  ⚡ Intuitive find & replace CLI written in Rust, serving as an ergonomic and significantly faster alternative to `sed` and `awk`.
 
+- **[Huh? (`charmbracelet/huh`)](https://github.com/charmbracelet/huh)** [![Stars](https://img.shields.io/github/stars/charmbracelet/huh?style=social&color=white)](https://github.com/charmbracelet/huh/stargazers)  
+  📋 Interactive, accessible terminal forms and multi-step prompt workflows built directly on top of Bubble Tea and Lip Gloss in Go.
 
+- **[Chafa (`hpjansson/chafa`)](https://github.com/hpjansson/chafa)** [![Stars](https://img.shields.io/github/stars/hpjansson/chafa?style=social&color=white)](https://github.com/hpjansson/chafa/stargazers)  
+  🖼️ High-performance character art and ANSI image/graphics generator for the terminal supporting sixel, Kitty graphics protocol, and Unicode block art.
 
-- **[Rich (`Textualize/rich`)](https://github.com)**  
-
-  Essential open-source Python library for rendering rich text, syntax-highlighted code, tables, progress bars, and markdown directly in the terminal.
-
-
-
-- **[Ratatui (`ratatui/ratatui`)](https://github.com)**  
-
-  Leading open-source Rust crate for cooking up fast, immediate-mode terminal user interfaces with rich layout constraints, charts, and cross-backend support.
-
-
-
-- **[Clack (`bombshell-shell/clack`)](https://github.com)**  
-
-  Effortless, beautifully styled open-source Node.js/TypeScript CLI prompting library featuring spinners, multi-selects, text inputs, and clean terminal ergonomics.
-
-
-
-- **[Inquirer.js (`SBoudrias/Inquirer.js`)](https://github.com)**  
-
-  Classic, widely adopted open-source collection of interactive command-line user interfaces and prompts for Node.js CLI tools.
-
-
-
-- **[Prompts (`terkelg/prompts`)](https://github.com)**  
-
-  Lightweight, zero-dependency open-source JavaScript CLI prompt library offering intuitive interactive inputs, confirmations, and autocomplete lists.
-
-
-
-- **[Termui (`gizak/termui`)](https://github.com)**  
-
-  Cross-platform open-source Go terminal dashboard and widget library built on `termbox-go` for rendering sparklines, bar charts, gauges, and grids.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Ink (`vadimdemedes/ink`)](https://github.com)** for building interactive command-line applications using React components and Flexbox layouts (`Yoga`).
-
-- **[Huh (`charmbracelet/huh`)](https://github.com)** for building interactive terminal forms and multi-step prompts directly inside Go applications.
-
-- **[Clap (`clap-rs/clap`)](https://github.com)** and **[Typer (`fastapi/typer`)](https://github.com)** for declarative, type-safe CLI argument parsing in Rust and Python.
-
-- **[VHS (`charmbracelet/vhs`)](https://github.com)** for writing CLI/TUI demonstrations as code (`.tape` files) and rendering crisp GIF/MP4 terminal recordings in CI.
-
-- **[ttyd (`tsl0922/ttyd`)](https://github.com)** for self-hosting and sharing any local CLI script or TUI application over the web via WebSockets with zero cloud lock-in.
-
-
-
-**Frameworks for building custom systems**: Combine **charmbracelet/gum** for instant shell-script UIs, **Bubble Tea + Lip Gloss** (Go) or **Textual + Rich** (Python) for full-screen TUI apps, and **ttyd + VHS** for web sharing and automated documentation recordings.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Note that `Lip Gloss`, `Cobra CLI`, `Bubble Tea`, and `Termui` are open-source libraries at their core; cloud references represent hosted SSH/web-rendering services built around those ecosystems.
-
-- When exposing interactive TUI applications over SSH (`Wish`) or HTTP/WebSockets (`ttyd`, `Textual Web`), always enforce authentication, sandboxed execution, and rate limiting.
-
-
+- **[Freeze (`charmbracelet/freeze`)](https://github.com/charmbracelet/freeze)** [![Stars](https://img.shields.io/github/stars/charmbracelet/freeze?style=social&color=white)](https://github.com/charmbracelet/freeze/stargazers)  
+  📸 Generate gorgeous image snapshots and code screenshot banners directly from terminal output, code snippets, or markdown.
 
 ---
 
+### Architectural Stacks & Tooling Combinations
 
+- **Interactive Shell Scripts**: Combine **`charmbracelet/gum`** with **`fzf`** and **`bat`** for glamorous, interactive shell prompts and fuzzy navigation with zero binary compilation.
+- **Go Full-Featured TUIs**: Pair **`Bubble Tea`** (state machine & event loop) + **`Lip Gloss`** (layout & ANSI styling) + **`Huh?`** (multi-page user forms) + **`Cobra`** (command-line argument routing).
+- **Python Modern Terminal Apps**: Pair **`Textual`** (reactive CSS-based widgets) + **`Rich`** (markup, syntax highlighting & tables) + **`Typer`** (type-hint CLI parser).
+- **Rust High-Performance TUIs**: Combine **`Ratatui`** (immediate mode rendering) + **`Clap`** (declarative argument parsing) + **`crossterm`** (cross-platform event loop).
+- **TypeScript / Node.js CLIs**: Use **`Clack`** or **`Inquirer.js`** for interactive prompts, **`Ink`** for React-based full terminal UIs, and **`Commander`** for option parsing.
+- **Web & CI Distribution**: Use **`ttyd`** to broadcast terminal sessions via WebSockets over the internet and **`VHS`** to record automated, reproducible `.tape` GIF demos in GitHub Actions.
 
-**Made for CLI developers, DevOps engineers, terminal enthusiasts, and open-source contributors.**  
+---
 
-Let's make command-line scripting and terminal user interfaces more expressive, ergonomic, and completely open-source.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To suggest a new tool or update existing details:
+
+1. 🍴 **Fork this repository**.
+2. 🌿 Create a feature branch: `git checkout -b add-tool-name`.
+3. 📝 Add or edit your entry in `README.md` (keep descriptions objective, link official repos, and follow existing badge styling).
+4. 🚀 Push to your branch and open a **Pull Request**.
+
+⭐ Don't forget to **star the repository** if you find it helpful!
+
+---
+
+## 💖 Support & Share
+
+If you find this curated collection useful for your development workflow or terminal craftsmanship, here is how you can support the project:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork & Share** it with your engineering team, terminal fans, and developer communities on X/Twitter, LinkedIn, and Reddit.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized reviews!
+
+<div align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%99%A5-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</div>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-CLI-Scripting-Terminal-UI-Tools&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated index** — not an exhaustive database and not a commercial endorsement.
+- `Lip Gloss`, `Cobra CLI`, `Bubble Tea`, and `Termui` are open-source libraries at their core; cloud references describe hosted web/SSH bridges.
+- When exposing interactive TUI applications over SSH (`Wish`) or HTTP/WebSockets (`ttyd`, `Textual Web`), always enforce authentication, sandboxed execution, and rate limiting.
+
+---
+
+<div align="center">
+  <sub>Crafted with ❤️ for CLI developers, DevOps engineers, terminal craftsmen, and open-source contributors.</sub>
+</div>
