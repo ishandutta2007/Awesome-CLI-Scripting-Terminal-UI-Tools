@@ -30,55 +30,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global developer tools and command-line interface ecosystem is currently estimated at approximately $15B–$16B, expanding at a ~15% CAGR toward broader cloud and developer infrastructure segments. The market exhibits a distinct bifurcation: it is **extremely fragmented** at the modular CLI utility and local TUI framework level where thousands of open-source projects thrive, but **highly concentrated** at the platform, distribution, and cloud terminal layer where mega-cap gatekeepers (Microsoft/GitHub, AWS) dominate enterprise adoption and workflow distribution.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Charm Cloud & Wish Hosted Ecosystem (`charm.sh`)](https://charm.sh)**  
-
-  Cloud services, SSH-accessible terminal app infrastructure, and developer ecosystem built around Charm's glamorous CLI and TUI libraries (`Gum`, `Bubble Tea`, `Lip Gloss`).
-
-
-
-- **[Textualize Cloud / Textual Web](https://textualize.io)**  
-
-  Hosted web-serving and cloud deployment platform enabling Python `Textual` and `Rich` TUI applications to run directly inside standard web browsers over WebSockets.
-
-
-
-- **[Warp (Cloud-Synced Terminal & Workflows)](https://warp.dev)**  
-
-  Modern GPU-accelerated terminal featuring cloud-synced parameterized CLI workflows, interactive command blocks, and team script sharing.
-
-
-
-- **[Fig / Amazon Q Developer CLI](https://amazon.com)**  
-
-  Cloud-backed terminal autocomplete and script-runner overlay providing IDE-style visual menus and parameter completions for custom CLIs.
-
-
-
-- **[GitHub Codespaces & Web Terminals](https://github.com)**  
-
-  Managed cloud development environments offering instant browser-hosted terminals for running and testing interactive TUI applications remotely.
-
-
-
-- **[Replit & Cloud Shell Workspaces](https://replit.com)**  
-
-  Browser-based cloud execution platforms providing hosted PTY terminal sessions for sharing interactive CLI scripts and TUI apps without local installation.
+| Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Fig / Amazon Q Developer CLI](https://amazon.com)** | **~$2.1T+ Market Cap** (Parent: Amazon AWS; Q Dev product unit) | **$19/user/month** (Amazon Q Pro tier) | **Free forever plan**: 50 agentic requests/month, 1,000 lines of code transformation/month, and basic security vulnerability scans via AWS Builder ID. | Cloud-backed terminal autocomplete, CLI assistant, and code transformation overlay with visual parameter menus. |
+| **[GitHub Codespaces & Web Terminals](https://github.com)** | **~$2B+ ARR** (Acquired for $7.5B by Microsoft, ~$3.1T+ Market Cap) | **~$0.18/hour** (2-core compute pay-as-you-go overages) or **$4/user/mo** (GitHub Team) | **Free forever plan**: 120 core hours/month and 15 GB of persistent storage/month on personal accounts. | Managed cloud development environments offering browser-hosted and SSH-accessible terminals for interactive TUI applications. |
+| **[Replit & Cloud Shell Workspaces](https://replit.com)** | **$9.0B Valuation** (~$240M Revenue / $150M+ ARR) | **$25/month** (or $20/mo billed annually for Replit Core) | **Free forever plan**: 1 public repl deployment, shared compute (0.5 vCPU, 512MB–1GB RAM), apps sleep after 5 minutes of inactivity, limited daily AI completions. | Browser-based collaborative development platform providing hosted PTY terminal sessions and interactive CLI deployments. |
+| **[Warp (Cloud-Synced Terminal & Workflows)](https://warp.dev)** | **~$500M+ Valuation** ($75M–$85M+ total venture funding; tens of millions ARR) | **$20/user/month** (or $18/mo billed annually for Build tier) | **Free forever plan**: Unlimited modern terminal access, up to 3 indexed codebases, Bring-Your-Own-Key (BYOK) AI agent access (0 bundled managed agent credits included). | Modern GPU-accelerated terminal featuring cloud-synced CLI workflows, team script sharing, and AI coding agents. |
+| **[Charm Cloud & Wish Hosted Ecosystem (`charm.sh`)](https://charm.sh)** | **Seed-stage (~$6M venture funding raised** led by Gradient Ventures) | **$10/month** (Shred Diet plan for Charm Hyper) or $5 prepaid credit pack | **Free forever plan**: 100% free open-source TUI libraries, self-hosting (`charm serve`), and Crush terminal coding agent using Bring-Your-Own-Key (BYOK). | Cloud services, inference routing (Hyper), and developer infrastructure built around Charm's CLI/TUI tools. |
+| **[Textualize Cloud / Textual Web](https://textualize.io)** | **Seed-stage venture-backed** (raised undisclosed seed from Costanoa Ventures; wound down commercial operations) | **$0/month** (Free & 100% open-source under MIT; commercial cloud service retired) | **Free forever plan**: Unlimited full access to self-hosted `textual-web` WebSocket server and Python Textual framework without commercial usage caps. | Hosted web-serving and open-source WebSocket runtime enabling Python `Textual` TUI apps to render directly inside web browsers. |
 
 
 
